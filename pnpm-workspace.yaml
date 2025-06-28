@@ -1,0 +1,5 @@
+packages:
+  # 所有包的位置
+  - 'packages/*'
+  # 共享配置和工具
+  - 'shared/*'
