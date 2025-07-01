@@ -2,12 +2,22 @@
   "name": "uni-boost",
   "private": true,
   "type": "module",
+  "files": [
+    "bin",
+    "dist"
+  ],
   "scripts": {
     "build": "pnpm -r build",
     "test": "pnpm -r test",
     "changeset": "changeset",
     "version": "changeset version",
-    "release": "changeset publish"
+    "release": "changeset publish",
+    "publish:cross-platform": "node scripts/publish.js",
+    "publish:bash": "./scripts/publish.sh",
+    "publish:windows": "scripts/publish.bat",
+    "publish:manual": "node scripts/publish.js",
+    "prepublish": "pnpm build && pnpm test",
+    "check:publish": "cd packages/module && npm pack --dry-run"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
