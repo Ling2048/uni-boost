@@ -1,17 +1,17 @@
 {
   "name": "uni-boost-module",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A powerful UniApp module system with plugin architecture, virtual modules, and Vue integration",
   "keywords": ["uniapp", "vite", "plugin", "module", "vue", "typescript"],
   "author": "Your Name <your.email@example.com>",
   "license": "MIT",
-  "homepage": "https://github.com/your-username/uni-boost#readme",
+  "homepage": "https://github.com/Ling2048/uni-boost#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-username/uni-boost.git"
+    "url": "git+https://github.com/Ling2048/uni-boost.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/uni-boost/issues"
+    "url": "https://github.com/Ling2048/uni-boost/issues"
   },
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",

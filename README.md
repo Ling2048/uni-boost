@@ -300,7 +300,7 @@ pnpm release
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/uni-boost.git
+git clone https://github.com/Ling2048/uni-boost.git
 cd uni-boost
 
 # 安装依赖

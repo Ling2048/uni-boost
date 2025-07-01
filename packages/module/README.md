@@ -83,4 +83,4 @@ MIT License - 详见 [LICENSE](../../LICENSE) 文件。
 
 ## 更多信息
 
-更多详细文档请查看 [项目主页](https://github.com/your-username/uni-boost)。
+更多详细文档请查看 [项目主页](https://github.com/Ling2048/uni-boost)。
