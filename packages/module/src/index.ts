@@ -23,8 +23,6 @@ export const createUniBoostPlugins = async (config: Partial<UniBoostConfig> = {}
   
   // 加载数据
   const data = await configManager.loadData();
-
-  console.log('data', data, config)
   
   // 使用 PluginFactory 创建所有标准插件
   return await pluginFactory.createStandardPlugins({

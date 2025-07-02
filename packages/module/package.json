@@ -1,6 +1,6 @@
 {
   "name": "uni-boost-module",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A powerful UniApp module system with plugin architecture, virtual modules, and Vue integration",
   "keywords": ["uniapp", "vite", "plugin", "module", "vue", "typescript"],
   "author": "Your Name <your.email@example.com>",

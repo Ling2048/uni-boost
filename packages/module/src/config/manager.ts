@@ -64,7 +64,7 @@ export class ConfigManager {
       const pattern = joinPath(this.config.modulePath, '**', FILE_PATHS.MODULE_JSON);
       const moduleFiles = await glob(pattern);
       
-      logger.debug(`找到 ${moduleFiles.length} 个模块配置文件`);
+      logger.info(`找到 ${moduleFiles.length} 个模块配置文件 ${this.config.modulePath}`);
       
       const modules: ModuleData[] = [];
       
